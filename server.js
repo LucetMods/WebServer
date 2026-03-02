@@ -37,8 +37,8 @@ app.use(express.static(path.join(__dirname, 'public'))); // serves static files 
 
 app.get(/^\/$|^\/index(.html)?$/, (req, res) => {
     // res.send("Hello World");
-    res.sendFile('./views/index.html', { root: __dirname }); // send the index.html file to the client
-    // res.sendFile(path.join(__dirname, 'views', 'index.html')); // send the index.html file to the client - not working (industry standard way to send files)?
+    // res.sendFile('./views/index.html', { root: __dirname }); // send the index.html file to the client
+    res.sendFile(path.join(__dirname, 'views', 'index.html')); // send the index.html file to the client - not working (industry standard way to send files)?
 });
 
 app.get(/^\/new-page(.html)?$/, (req, res) => {
