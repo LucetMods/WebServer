@@ -1,0 +1,4 @@
+@baseUrl = http://localhost:3500
+@ContentType = application/json
+
+GET {{baseUrl}}/employees/1

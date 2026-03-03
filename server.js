@@ -25,7 +25,7 @@ const corsOptions = {
     },
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204 - set the status code to 200 for successful OPTIONS requests
 }
-app.use(cors(corsOptions)); 
+app.use(cors(corsOptions));
 
 // built in middleware - middleware functions that are included with express
 // waterfall of middleware functions - the order of the middleware functions matters - the first middleware function that matches the request will be executed
@@ -38,6 +38,7 @@ app.use('/subdir', express.static(path.join(__dirname, '/public'))); // serves s
 // routes
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
+app.use('/employees', require('./routes/api/employees'));
 
 // app.get(/^\/$|^\/index(.html)?$/, (req, res) => {
 //     // res.send("Hello World");
