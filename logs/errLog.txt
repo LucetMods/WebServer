@@ -4,3 +4,5 @@
 2026/03/03	13:53:25	6abb500c-f679-41f6-b46d-5cfec496a53a	TypeError: Cannot read properties of undefined (reading 'firstname')
 2026/03/03	13:54:57	a70d4b16-3a1a-44c5-9f30-5bf4fe35b7f7	SyntaxError: Expected property name or '}' in JSON at position 7 (line 2 column 5)
 2026/03/03	14:01:30	b017b7f4-1630-4b4c-9078-b9ca050fdb21	TypeError: Cannot read properties of undefined (reading 'firstname')
+2026/03/04	12:35:06	3d378739-80a3-4043-91c8-e1495520f74b	TypeError: Cannot read properties of undefined (reading 'id')
+2026/03/04	12:39:53	5dcfb4ec-07e2-4492-9224-ca80692e8163	TypeError: Cannot read properties of undefined (reading 'id')
