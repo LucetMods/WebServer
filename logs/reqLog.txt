@@ -218,3 +218,8 @@
 2026/03/04	12:39:25	ab662219-3c9f-4625-b4bd-afccd1e19ae6	GET	undefined	/employees/1
 2026/03/04	12:39:53	3cf49907-27ef-44ef-9e41-bd83bc31c351	GET	undefined	/employees/1
 2026/03/04	12:41:11	8b557c7e-8ce2-49ab-9c1d-023a638038d8	GET	undefined	/employees/1
+2026/03/05	13:34:01	02b495fb-9fb3-4a58-927c-e380e513ea64	POST	undefined	/register
+2026/03/05	13:36:32	f1e41d9a-683a-4821-afd7-d4ea277df068	POST	undefined	/register
+2026/03/05	13:51:51	a3310ad0-6ffc-4b22-93ab-4638f316a08d	POST	undefined	/auth
+2026/03/05	13:52:02	20e2eef5-9ec9-4686-9cda-d6d359dee4b2	POST	undefined	/auth
+2026/03/05	13:52:20	eec9ef8c-8771-4d49-acc3-f0b779c293c8	POST	undefined	/register

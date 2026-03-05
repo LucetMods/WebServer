@@ -24,6 +24,8 @@ app.use('/', express.static(path.join(__dirname, '/public'))); // serves static 
 
 // routes
 app.use('/', require('./routes/root'));
+app.use('/auth', require('./routes/api/auth'));
+app.use('/register', require('./routes/api/register'));
 app.use('/employees', require('./routes/api/employees'));
 
 // app.get(/^\/chain(.html)?$/, [one, two, three]); // chain multiple route handlers together - the route handlers will be executed in the order they are defined in the array
